@@ -12,6 +12,20 @@ matt.a.feenstra@gmail.com
 
 This has been tested and works on MacOS, RHEL/Fedora/Debian/Ubuntu/Alpine Linux, and all other flavors suporting xterm with 256 colors.  The `LS_COLORS` environment variable is widely interpreted by most \*NIX operating systems and is how directory color is passed to the user's command line terminal.  See the following UNIX man pages `man dircolors` and `man dir_colors` for more information.
 
+### Also:
+
+- Use `gls` from _GNU coreutils_. And a couple handy aliases to consider:
+
+  - `gls -alhF --group-directories-first --color=auto`
+
+  - `gls -alhtrF --group-directories-first --color=auto`
+
+- `gdircolors`
+
+- `gdircolors --print-database`
+
+- `gdircolors --print-ls-colors`
+
 ## How to use it
 
 Source the `ls_colors.sh` into your environment in  the following ways:
